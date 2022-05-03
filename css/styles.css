@@ -1,0 +1,24 @@
+
+.header-grid{
+    display: grid;
+    height: 300px;
+    width: auto;
+    background-color: aqua;
+    align-items: center;
+    justify-items: center;
+}
+/* No estoy seguro de width */
+
+
+header img {
+    display: grid;
+    grid-column: 2/3;
+    width: auto;
+}
+/* No estoy seguro de width */
+
+header h1 {
+    display: grid;
+    grid-column: 3/4;
+    width: auto;
+}
