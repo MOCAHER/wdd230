@@ -26,6 +26,7 @@ header img {
 header h1 {
     display: grid;
     grid-column: 2/3;
+    color:black;
 }
 
 header h2 {
@@ -44,9 +45,23 @@ main {
     justify-items: left;
 }
 
-main ul{
+main ul li{
     list-style: none;
+    padding: 1em;
 }
+
+main ul li:hover {
+    background-color: rgb(228, 0, 124);
+    transform: scale(1.1);
+    color:rgb(255, 255, 255);
+    transition: .5s;
+}
+
+main ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 
 footer {
     display: grid;
