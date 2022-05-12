@@ -48,13 +48,17 @@ main {
 main ul li{
     list-style: none;
     padding: 1em;
+    width: 100%;
 }
+
+/*Quizá deba eliminar widtho cambiarlo por max-width*/
 
 main ul li:hover {
     background-color: rgb(228, 0, 124);
     transform: scale(1.1);
     color:rgb(255, 255, 255);
     transition: .5s;
+    width: 100%;
 }
 
 main ul li a {
