@@ -13,7 +13,6 @@ header{
     background-color: rgba(0, 104, 71, 0.507);
     align-items: center;
     justify-items: center;
-    border-radius: 20px;
 }
 
 header img {
@@ -72,7 +71,6 @@ footer {
     background-color: rgba(206, 17, 39, 0.505);
     align-items: center;
     justify-items: center;
-    border-radius: 20px;
 }
 
 .footer-second{
