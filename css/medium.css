@@ -1,5 +1,9 @@
 @media (min-width: 32.5em){
+    body {
+        background-color: rgba(128, 128, 128, 0.508);
+    }
     header h1{
         color: rgb(228, 0, 124);
+        font-weight: bold;
     }
 }
