@@ -1,0 +1,48 @@
+body {
+    Font-family: "EB Garamond", Arial, sans-serif;
+    background-color: rgba(195, 191, 191, 0.5);
+}
+
+
+header {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    background-color: rgb(2, 2, 79);
+}
+
+
+main{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+}
+/*grid-template-columns: auto auto auto;*/
+/*Debo saber si me conviene más fr o auto*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+p {
+    padding: 50px;
+    margin: 0;
+}
+
+
+footer {
+    display: grid;
+    background-color: rgb(2, 2, 79);
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
