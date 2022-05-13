@@ -12,6 +12,10 @@ header {
     background-color: rgb(2, 2, 79);
 }
 
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 
 main{
     display: grid;
@@ -34,7 +38,7 @@ section{
     background-color: white;
 }
 
-a {
+section a {
     text-decoration: none;
     color: black;
     padding: 20px;
