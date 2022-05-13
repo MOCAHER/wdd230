@@ -9,7 +9,7 @@ header {
     align-items: center;
     justify-items: center;
     color: white;
-    background-color: rgb(2, 2, 79);
+    background-color: rgba(0, 104, 71, 0.507);
 }
 
 header a{
@@ -52,8 +52,9 @@ p {
 
 footer {
     display: grid;
-    background-color: rgb(2, 2, 79);
+    background-color: rgba(206, 17, 39, 0.505);
     align-items: center;
     justify-items: center;
     color: white;
 }
+
