@@ -40,13 +40,12 @@ main {
     padding: 50px;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    justify-items: left;
 }
+
 
 main ul li{
     list-style: none;
     padding: 1em;
-    width: 100%;
 }
 
 main ul li:hover {
@@ -54,7 +53,6 @@ main ul li:hover {
     transform: scale(1.1);
     color:rgb(255, 255, 255);
     transition: .5s;
-    width: 100%;
 }
 
 main ul li a {
@@ -65,7 +63,6 @@ main ul li a {
 main ul li a:hover{
     color: white;
 }
-
 
 
 
