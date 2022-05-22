@@ -1,28 +1,21 @@
+/*Home*/
+
 body {
-    font-family: 'PT Serif', Arial, sans-serif;
+  font-family: 'PT Serif', Arial, sans-serif;
 }
 
 
 header {
-    display: flex;
-    height: 250px;
-    background-color: rgba(7, 32, 49, 0.752);
-    align-items: center;
+  display: flex;
+  height: 250px;
+  background-color: rgba(7, 32, 49, 0.752);
+  align-items: center;
 }
 
-/*
-nav ul li{
-    padding: 2em;
-    list-style: none;
-    display: inline-flex;
-    text-align: center;
+.logo {
+  padding: 1em;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: white;
-}
-*/
 
 /*
 flex-flow: column;
@@ -38,38 +31,16 @@ Separa el contenido
 
 
 header {
-    background-color: #284B63;
-    display: flex;
+  background-color: #284B63;
+  display: flex;
 	align-items: center;
-    justify-content: space-between;
-    color: #D9D9D9;
+  justify-content: space-between;
+  color: #D9D9D9;
 }
 
-footer {
-    background-color: #284B63;
-    display: flex;
-    justify-content: center;
-    color: #D9D9D9;
-    padding: 1rem;
-}
-
-main {
-    display: flex;
-    margin: 10em;
-    flex-flow: column;
-}
-
-main h1 {
-    display: flex;
-    justify-content: center;
-}
-
-main h2 {
-    margin-bottom: 0px;
-}
 
 nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 nav ul li a {
@@ -80,18 +51,82 @@ nav ul li a {
 }
 
 
+main {
+  display: flex;
+  margin: 5em;
+  flex-flow: column;
+}
 
-.lastupdate {
-    color: yellow;
+main h1{
+  color: #072031;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+footer {
+  background-color: #284B63;
+  display: flex;
+  justify-content: center;
+  color: #D9D9D9;
+  padding: 1rem;
+}
+
+
+
+/* Color Scheme*/
+
+.color {
+  display: flex;
+  padding: 2em;
+  margin: 0;
+  flex-flow: column;
+}
+
+.color h1 {
+  padding: 1em;
+}
+
+.color p{
+  display: flex;
+  justify-content: center;
+}
+
+.azul{
+  background-color: #072031;
+  color: #ffffff;
+  margin: 0;
+  padding: 2em;
+}
+
+.cafe{
+  background-color: #9C5E24;
+  color: #ffffff;
+  margin: 0;
+  padding: 2em;
+}
+
+.blanco {
+  margin: 0;
+  padding: 2em;
+}
+
+.beige {
+  background-color: #CAAD82;
+  color: #000000;
+  margin: 0;
+  padding: 2em;
 }
 
 
 
 
 
-
-
-
+.lastupdate {
+  color: yellow;
+}
 
 
 @media only screen and (min-width: 32.5em) {
