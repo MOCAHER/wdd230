@@ -70,12 +70,17 @@ main h1{
     padding: 1em;
     justify-content: center;
 }
+
+.juan, .ana{
+    display: none;
+    padding: 1em;
+  }
 /* Fin de todos los MAIN section*/
 
 
 footer {
     background-color: #284B63;
-    display: block;
+    display: flex;
     justify-content: center;
     color: #D9D9D9;
     padding: 1em;
